@@ -9,7 +9,7 @@ import MessagesContext from './contexts/MessagesContext';
 import AccountContext from './contexts/AccountContext';
 
 // EXERCISE 4.1
-const hostURL = (process.env.NODE_ENV==="production") ? "https://github.com/PAP-2025-Summer-L6-G1/Lesson10Backend-Nick-Curwood" : "https://localhost:3002";
+const hostURL = (process.env.NODE_ENV==="production") ? "https://lesson10backend-nick-curwood.onrender.com" : "https://localhost:3002";
 
 const apiSignup = hostURL+ "/signup";
 const apiLogin = hostURL+ "/login";
